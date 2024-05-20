@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: #7a2f2f;
+}
+
+p {
+    color: #180d0d;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 400px; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* 移除多余的边框 */
+}
+
+table, th, td {
+    border: 1px solid black; /* 设置表格、表头和单元格的边框 */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
